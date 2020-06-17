@@ -11,7 +11,14 @@
 yarn add -D serverless-idobata-webhook
 ```
 
-2. Setup custom in `serverless.yml`
+2. Setup plugins in `serverless.yml`
+
+```yml
+plugins:
+  - serverless-idobata-webhook
+```
+
+3. Setup custom in `serverless.yml`
 
 ```yml
 custom:
