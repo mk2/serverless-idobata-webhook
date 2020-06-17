@@ -1,6 +1,6 @@
 {
   "name": "serverless-idobata-webhook",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/mk2/serverless-idobata-webhook",
   "main": "dist/index.js",
   "files": [
