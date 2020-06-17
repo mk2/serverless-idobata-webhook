@@ -1,0 +1,40 @@
+{
+  "name": "serverless-idobata-webhook",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mk2/serverless-idobata-webhook",
+  "main": "dist/index.js",
+  "files": [
+    "dist/*.js"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "clean": "rimraf dist",
+    "build": "run-s clean build:*",
+    "build:js": "tsc"
+  },
+  "devDependencies": {
+    "@types/ip": "^1.1.0",
+    "@types/node": "^14.0.13",
+    "@types/serverless": "^1.72.2",
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/parser": "^3.2.0",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "date-fns": "^2.14.0",
+    "form-data": "^3.0.0",
+    "got": "^11.3.0",
+    "ip": "^1.1.5",
+    "pupa": "^2.0.1"
+  }
+}
